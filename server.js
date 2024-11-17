@@ -133,6 +133,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 // Start the HTTP server and make it listen on port 8080
-http.listen(3001, () => {
+http.listen(3000, () => {
     console.log('Server is listening on port 3001');
 })
